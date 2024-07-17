@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(143,252,69,1) 100%);
+}
+#header{
+    margin: auto;
+    width: 900px;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a {
+   background-color: darkmagenta;
+  color: crimson;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+    text-align: justify;
+}
+.nav > li{
+    float: left;
+}
+.nav li a:hover {
+    background-color: indianred;
+}
+h1{
+  background-color: blue;
+    color: darkslategray;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-style: solid ;
+    border-color: chartreuse;
+    padding: 20px;
+}
